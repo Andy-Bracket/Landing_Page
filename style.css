@@ -117,7 +117,9 @@ button {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    
+    margin-right: 300px;
+    margin-left: 300px;
+    color: darkgray;
 }
 
 .boxcontainer {
@@ -133,7 +135,7 @@ button {
     border-width: 5px;
     border-style: solid;
     border-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 15px;
     background-size: 100px;
     width: 150px;
     height: 150px;
@@ -144,7 +146,7 @@ button {
     border-width: 5px;
     border-style: solid;
     border-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 15px;
     background-size: 100px;
     width: 150px;
     height: 150px;
@@ -155,7 +157,7 @@ button {
     border-width: 5px;
     border-style: solid;
     border-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 15px;
     background-size: 100px;
     width: 150px;
     height: 150px;
@@ -166,7 +168,7 @@ button {
     border-width: 5px;
     border-style: solid;
     border-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 15px;
     background-size: 100px;
     width: 150px;
     height: 150px;
@@ -174,30 +176,19 @@ button {
 
 .cardone {
     display: flex;
-    font-size: 18px;
-    color: darkgray;
 }
 
 .cardtwo {
     display: flex;
-    font-size: 18px;
-    color: darkgray;
+  
 }
 
 .cardthree {
     display: flex;
-    font-size: 18px;
-    color: darkgray;
+    
 }
 
 .cardfour {
     display: flex;
-    font-size: 18px;
-    color: darkgray;
-}
-
-ul {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
+   
 }
