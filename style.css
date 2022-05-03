@@ -95,3 +95,35 @@ button {
     width: 90px;
     margin-top: 10px;
 }
+
+.whitebackground {
+    padding-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headertwo {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardcontainer {
+    font-size: 18px;
+    color: darkgray;
+    display: flex;
+
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 65px;
+
+}
