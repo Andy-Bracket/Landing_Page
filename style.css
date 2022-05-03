@@ -114,16 +114,82 @@ button {
 }
 
 .cardcontainer {
-    font-size: 18px;
-    color: darkgray;
-    display: flex;
-
-}
-
-.card {
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
-    margin: 65px;
+    list-style-type: none;
+    
+}
 
+.boxcontainer {
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none;
+}
+
+.boxone {
+    display: flex;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxtwo{
+    display: flex;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxthree {
+    display: flex;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxfour {
+    display: flex;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.cardone {
+    display: flex;
+    font-size: 18px;
+    color: darkgray;
+}
+
+.cardtwo {
+    display: flex;
+    font-size: 18px;
+    color: darkgray;
+}
+
+.cardthree {
+    display: flex;
+    font-size: 18px;
+    color: darkgray;
+}
+
+.cardfour {
+    display: flex;
+    font-size: 18px;
+    color: darkgray;
 }
