@@ -97,7 +97,7 @@ button {
 }
 
 .whitebackground {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -228,4 +228,37 @@ button {
 
 .quote {
     margin-bottom: 0px;
+}
+
+.whitebackground2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.signupcard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #3882F6;
+    border-radius: 10px;
+    background-size: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.call {
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    
+}
+
+.callsubtext {
+    color: #E5E7EB;
+    font-size: 12px;
+    margin-top: 0px;
 }
