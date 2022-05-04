@@ -97,7 +97,7 @@ button {
 }
 
 .whitebackground {
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -205,16 +205,27 @@ button {
 }
 
 .greybackground {
+    display: flex;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
     background-color: #E5E7EB;
     color: #1F2937;
-    padding-left: 550px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .quotesubtext {
+    display: flex;
     font-weight: bold;
     text-align: right;
-    padding-right: 500px;
+    padding-left: 500px;
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+.quote {
+    margin-bottom: 0px;
 }
